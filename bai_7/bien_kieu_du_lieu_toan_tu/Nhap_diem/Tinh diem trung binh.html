@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh diem trung binh</title>
+</head>
+<body>
+<script>
+    let diem_hoa = +prompt("Nhap diem hoa hoc cua ban");
+    let diem_ly = +prompt("Nhap diem vat ly cua ban");
+    let diem_sinh = +prompt("Nhap diem sinh hoc cua ban");
+    let diem_trung_binh = (diem_hoa + diem_ly + diem_sinh) / 3;
+    let tong_diem_ba_mon = (diem_hoa + diem_ly + diem_sinh);
+    document.write("Điểm trung bình của bạn là" + diem_trung_binh + "<br>");
+    document.write("Tổng điểm của bạn là" + tong_diem_ba_mon + "<br>");
+</script>
+</body>
+</html>
